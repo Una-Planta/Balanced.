@@ -13,5 +13,6 @@
 		"requiredResource": "Uranium",
 		"promotions": ["Logistics","Accuracy I"],
 		"attackSound": "phasers"
+	Can transform to [unit]
 	}
 ]
