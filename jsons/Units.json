@@ -16,7 +16,7 @@
 		"strength": 90,
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
-		"uniques": ["Never appears as a Barbarian unit", "Can transform to [Infantry]"],
+		"uniques": ["Never appears as a Barbarian unit", "Can transform to [Infantry]", "Can only attack [Civilian] units"],
 		"attackSound": "tankshot"
 	},
 ]
