@@ -1,18 +1,22 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
+		"name": "Infantry",
+		"unitType": "Gunpowder",
 		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"unique": "Can transform to [Mechanized Infantry]",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Mechanized Infantry",
+		"unitType": "Gunpowder",
+		"movement": 5,
 		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
-	Can transform to [unit]
-	}
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["Never appears as a Barbarian unit", "Can transform to [Infantry]"],
+		"attackSound": "tankshot"
+	},
 ]
