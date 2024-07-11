@@ -6,7 +6,7 @@
 		"strength": 70,
 		"cost": 375,
 		"requiredTech": "Plastics",
-		"uniques": "Can transform to [Mechanized Infantry]",
+		"uniques": ["Can transform to [Mechanized Infantry] <after discovering [Mobile Tactics]>"],
 		"attackSound": "shot"
 	},
 	{
