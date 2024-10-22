@@ -15,6 +15,24 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Conquistador",
+		"unitType": "Mounted",
+		"replaces": "Knight",
+		"uniqueTo": "Spain",
+		"movement": 4,
+		"strength": 20,
+		"cost": 135,
+		"requiredTech": "Chivalry",
+		"requiredResource": "Horses",
+		"upgradesTo": "Cavalry",
+		"obsoleteTech": "Military Science",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city", "[+2] Sight"],
+		"promotions": ["[Conquistador] ability"],
+		"attackSound": "horse"
+		//Conquistador should have no penalty attacking cities
+		//Ability to found new cities can only be used on a foreign continent that does not contain the Spanish capital.
+	},
+	{
 		"name": "Infantry",
 		"unitType": "Gunpowder",
 		"movement": 2,
