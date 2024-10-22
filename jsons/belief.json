@@ -4,4 +4,14 @@
         "type": "Pantheon",
         "uniques": ["[+4 Fait, +4 Culture] from every [Natural Wonder]"]
     },
+        {
+        "name": "Dogma",
+        "type": "Founder",
+        "uniques": ["[+1 Happiness] from every [7] global followers"]
+    },
+    {
+        "name": "Religious Texts",
+        "type": "Enhancer",
+        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>", "[+34]% Natural religion spread [in all cities] <after discovering [Telecommunications]>"]
+    },
 ]
