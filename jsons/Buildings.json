@@ -1,11 +1,1 @@
-[
-    {
-	"name": "St. Basil's Cathedral",
-	"culture": 2,
-        "faith": 5,
-	"greatPersonPoints": {"Great Prophet": 2},
-	"isWonder": true,
-	"uniques": ["[+1 Faith] per [2] population [in all cities]"],
-	"requiredTech": "Architecture",
-    },
-]
+
