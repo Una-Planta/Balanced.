@@ -4,10 +4,10 @@
         "type": "Pantheon",
         "uniques": ["[+4 Fait, +4 Culture] from every [Natural Wonder]"]
     },
-        {
+    {
         "name": "Dogma",
         "type": "Founder",
-        "uniques": ["[+1 Happiness] from every [7] global followers"]
+        "uniques": ["[+1 Happiness] from every [7] global followers [in all cities]"]
     },
     {
         "name": "Religious Texts",
