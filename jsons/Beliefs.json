@@ -7,7 +7,7 @@
     {
         "name": "Ciencia Eclesiatica",
         "type": "Founder",
-        "uniques": ["[+20]% growth [in this city]"],
+        "uniques": ["May buy [{Science}] Buildings with [Faith] for [2] times their normal Production cost <before the [Industrial era]>"],
     },
     {
         "name": "Religious Texts",
