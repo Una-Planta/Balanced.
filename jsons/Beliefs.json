@@ -12,6 +12,6 @@
     {
         "name": "Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>", "[+32]% Natural religion spread [in all cities] <after discovering [Telecommunications]>"]
+        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>", "[+34]% Natural religion spread [in all cities] <after discovering [Telecommunications]>"]
     },
 ]
