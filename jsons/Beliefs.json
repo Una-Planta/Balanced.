@@ -5,7 +5,7 @@
         "uniques": ["[+2 Culture, +4 Faith] from every [Natural Wonder]"]
     },
     {
-        "name": "Dogma",
+        "name": "Ciencia Eclesiatica",
         "type": "Founder",
         "uniques": ["[+20]% growth [in this city]"],
     },
