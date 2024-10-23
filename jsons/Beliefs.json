@@ -7,11 +7,11 @@
     {
         "name": "Dogma",
         "type": "Founder",
-        "uniques": ["[+1 Happiness] from every [7] global followers [in all cities]"]
+        "uniques": ["[+1 Happiness] from every [8] global followers [in all cities]"]
     },
     {
         "name": "Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>", "[+34]% Natural religion spread [in all cities] <after discovering [Telecommunications]>"]
+        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>", "[+32]% Natural religion spread [in all cities] <after discovering [Telecommunications]>"]
     },
 ]
