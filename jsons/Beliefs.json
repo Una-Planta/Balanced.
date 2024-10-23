@@ -7,7 +7,7 @@
     {
         "name": "Dogma",
         "type": "Founder",
-        "uniques": ["[+1 Happiness] from every [8] global followers [in all cities]"]
+        "uniques": ["[+20]% growth [in this city]"],
     },
     {
         "name": "Religious Texts",
