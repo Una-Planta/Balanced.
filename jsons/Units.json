@@ -45,24 +45,11 @@
 	{
 		"name": "Mechanized Infantry",
 		"unitType": "Gunpowder",
-		"movement": 5,
+		"movement": 6,
 		"strength": 90,
 		"cost": 375,
 		"requiredTech": "Mobile Tactics",
 		"uniques": ["Never appears as a Barbarian unit", "Can transform to [Infantry]", "Can only attack [Civilian] units"],
 		"attackSound": "tankshot"
 	},
-	{
-		"name": "Inquisidor Español",
-		"unitType": "Civilian",
-		"replaces": "Inquisitor",
-		"uniqueTo": "Spain",
-		"uniques": ["Prevents spreading of religion to the city it is next to",
-			"Can remove other religions from cities <in [Friendly] tiles> <[3] times> <after which this unit is consumed>",
-            "Can be purchased with [Faith] [in all cities in which the majority religion is a major religion]",
-			"[+1] Sight", "Only available <when religion is enabled>", "Unbuildable", "Religious Unit"
-		],
-		"movement": 3
-	},
-
 ]
