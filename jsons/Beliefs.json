@@ -6,11 +6,11 @@
     },
     {
         "name": "Ciencia Eclesiatica",
-        "type": "Founder",
+        "type": "Enhancer",
         "uniques": ["[+100]% Production when constructing [Library] buildings [in all cities]",   
                     "[+100]% Production when constructing [University] buildings [in all cities]",   
                   "[+100]% Production when constructing [Observatory] buildings [in all cities]",   
-                   "[+100]% Production when constructing [School] buildings [in all cities]"], 
+                   "[+100]% Production when constructing [Public School] buildings [in all cities]"], 
     },
     {
         "name": "Religious Texts",
