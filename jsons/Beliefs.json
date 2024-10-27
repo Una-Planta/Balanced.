@@ -2,19 +2,21 @@
     {
         "name": "Mine Of Nature",
         "type": "Pantheon",
-        "uniques": ["[+2 Culture, +4 Faith] from every [Natural Wonder]"]
+        "uniques": ["[+2 Culture, +3 Faith] from every [Natural Wonder]"]
     },
     {
         "name": "Ciencia Eclesiatica",
         "type": "Founder",
-        "uniques": ["May buy [Library] with [Faith] for [2] times their normal Production cost",
-            "May buy [University] with [Faith] for [2] times their normal Production cost",
-                "May buy [Observatory] with [Faith] for [2] times their normal Production cost",
-            "May buy [Public School] with [Faith] for [2] times their normal Production cost"],
+        "uniques": ["[+100]% Production when constructing [Library] buildings [in all cities]",   
+                    "[+100]% Production when constructing [University] buildings [in all cities]",   
+                  "[+100]% Production when constructing [Observatory] buildings [in all cities]",   
+                   "[+100]% Production when constructing [School] buildings [in all cities]"], 
     },
     {
         "name": "Religious Texts",
         "type": "Enhancer",
-        "uniques": ["[+34]% Natural religion spread [in all cities]", "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>", "[+34]% Natural religion spread [in all cities] <after discovering [Telecommunications]>"]
+        "uniques": ["[+34]% Natural religion spread [in all cities]", 
+            "[+34]% Natural religion spread [in all cities] <after discovering [Printing Press]>",
+            "[+32]% Natural religion spread [in all cities] <after discovering [Telecommunications]>"]
     },
 ]
