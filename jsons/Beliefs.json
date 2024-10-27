@@ -6,7 +6,7 @@
     },
     {
         "name": "Ciencia Eclesiatica",
-        "type": "Follower",
+        "type": "Enhancer",
         "uniques": ["[+100]% Production when constructing [Library] buildings [in all cities]",   
                     "[+100]% Production when constructing [University] buildings [in all cities]",   
                   "[+100]% Production when constructing [Observatory] buildings [in all cities]",   
