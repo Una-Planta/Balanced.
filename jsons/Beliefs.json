@@ -7,7 +7,7 @@
     {
         "name": "Ciencia Eclesiatica",
         "type": "Enhancer",
-        "uniques": ["May buy [Library] buildings with [Faith] [in cities following this religion]",
+        "uniques": ["May buy [Library] buildings for [100] [Faith] [in cities following this religion]",
 "May buy [University] buildings with [Faith] [in cities following this religion]",
 "May buy [Observatory] buildings with [Faith] [in cities following this religion]",
 "May buy [Public School] buildings with [Faith] [in cities following this religion]"],
