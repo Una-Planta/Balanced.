@@ -7,7 +7,7 @@
     {
         "name": "Ciencia Eclesiatica",
         "type": "Enhancer",
-        "uniques": ["May buy [Library] buildings for [100] [Faith] [in cities following this religion]",
+        "uniques": ["May buy [Library] buildings with [Faith] [in cities following this religion]",
 "May buy [University] buildings with [Faith] [in cities following this religion]",
 "May buy [Observatory] buildings with [Faith] [in cities following this religion]",
 "May buy [Public School] buildings with [Faith] [in cities following this religion]"],
@@ -24,5 +24,11 @@
         "type": "Follower",
         "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>",
 "May buy [{Military} {Land}] units with [Faith] for [3] times their normal Production cost <after discovering [Scientific Theory]>"],
+    },
+    {
+            "name": "Peace Loving",
+        "type": "Founder",
+        "uniques": ["[+1 Happiness] from every [5] global followers [in all cities]",
+        "[+1 Culture] from every [25] global followers [in all cities]"]
     },
 ]
