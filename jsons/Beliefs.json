@@ -23,7 +23,6 @@
         "name": "Holy Warriors",
         "type": "Follower",
         "uniques": ["May buy [{Military} {Land}] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>",
-"May buy [{Military} {Land}] units with [Faith] for [3] times their normal Production cost <after the [Industrial era]>"]
-
+"May buy [{Military} {Land}] units with [Faith] for [3] times their normal Production cost <after discovering [Printing Press]>"],
     },
 ]
