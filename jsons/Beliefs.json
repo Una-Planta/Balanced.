@@ -34,6 +34,6 @@
     {
         "name": "Religious Community",
         "type": "Follower",
-        "uniques": ["[+0.1]% [Production] from every global follower, up to [15]% [in al cities]"]
+        "uniques": ["[+1]% [Production] from every follower, up to [20]%"]
     },
 ]
