@@ -1,6 +1,10 @@
 [
  {
-		"name": "[Conquistador] ability",
-		"uniques": ["Defense bonus when embarked", "Heals [10] damage if it kills a unit", "[+2] Sight"]
-	},
+	"name": "[Conquistador] ability",
+	"uniques": ["Defense bonus when embarked", "Heals [10] damage if it kills a unit", "[+2] Sight"]	
+ },
+{
+	"name": "[Tercio] ability",
+	"uniques": ["[+25]% XP gained from combat"],
+},
 ]
