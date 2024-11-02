@@ -31,4 +31,9 @@
         "uniques": ["[+1 Happiness] from every [5] global followers [in all cities]",
         "[+1 Faith] from every [2] global followers [in all cities]"]
     },
+    {
+        "name": "Religious Community",
+        "type": "Follower",
+        "uniques": ["[+0.1]% [Production] from every global follower, up to [15]% [in al cities]"]
+    },
 ]
