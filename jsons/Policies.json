@@ -10,15 +10,15 @@
             "Scientific": 0
         },
         "uniques": [
-          "May buy [Shrine] buildings with [Faith] [in all cities]",
-    "May buy [Temple] buildings with [Faith] [in all cities]",
-"May buy [Grand Temple] buildings with [Faith] [in all cities]"],
+          "May buy [Shrine] buildings for [50] [Faith] [in all cities]",
+    "May buy [Temple] buildings for [150] [Faith] [in all cities]",
+"May buy [Grand Temple] buildings for [1500] [Faith] [in all cities]"],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+1 Faith] from every [Shrine]",
-                    "[+2 Faith] from every [Temple]",
+                    "[+2 Faith] from every [Shrine]",
+                    "[+4 Faith] from every [Temple]",
                 ],
                 "row": 1,
                 "column": 2
@@ -26,7 +26,7 @@
             {
                 "name": "Mandate Of Heaven",
                 "uniques": [
-                    "[Faith] cost of purchasing items in cities [-25]%",
+                    "[Faith] cost of purchasing items in cities [-30]%",
                 ],
                 "row": 1,
                 "column": 5
@@ -135,7 +135,7 @@
                 "name": "Police State",
                 "uniques": [
                     "[+3 Happiness] from every [Courthouse]",
-                    "[Gold] cost of purchasing [Courthouse] buildings [-50]%"
+                    "[Gold] cost of purchasing [Courthouse] buildings [-75]%"
                     
                 ],
                 "requires": ["Militarism"],
