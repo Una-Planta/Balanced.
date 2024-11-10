@@ -24,13 +24,12 @@
         "type": "Follower",
         "uniques": ["May buy [Military] units with [Faith] for [2] times their normal Production cost <before the [Industrial era]>",
 "May buy [Military] units with [Faith] for [3] times their normal Production cost <starting from the [Industrial era]>", 
-            "May buy [Civilian] units with [Faith] for [1] times their normal Production cost"]>",
-],
+            "May buy [Civilian] units with [Faith] for [1] times their normal Production cost"],
     },
     {
             "name": "Peace Loving",
         "type": "Founder",
-        "uniques": ["[+1 Happiness] from every [5] global followers [in all cities]",
+        "uniques": ["[+1 Happiness] from every [4] global followers [in all cities]",
         "[+1 Faith] from every [2] global followers [in all cities]"]
     },
     {
