@@ -1,4 +1,74 @@
 [
+	    {
+        "name": "Tradition",
+        "era": "Ancient era",
+        "priorities": {
+            "Neutral": 5,
+            "Cultural": 5,
+            "Diplomatic": 5,
+            "Domination": 5,
+            "Scientific": 5
+        },
+        "uniques": [
+            "[+3 Culture] [in capital]",
+            "[-25]% Culture cost of natural border growth [in all cities]"
+        ],
+        "policies": [
+            {
+                "name": "Aristocracy",
+                "uniques": [
+                    "[+15]% Production when constructing [All] wonders [in all cities]",
+                    "[+1 Happiness] per [10] population [in all cities]"
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Legalism",
+                "uniques": [
+                    "Provides the cheapest [Culture] building in your first [4] cities for free"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Oligarchy",
+                "uniques": [
+                    "Units in cities cost no Maintenance",
+                    "[+50]% Strength for cities <with a garrison> <when attacking>",
+                    "[-100]% weight to this choice for AI decisions"
+                ],
+                "row": 1,
+                "column": 5
+            },
+            {
+                "name": "Landed Elite",
+                "uniques": [
+                    "[+15]% growth [in capital]",
+                    "[+2 Food] [in capital]"
+                ],
+                "requires": ["Legalism"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Monarchy",
+                "uniques": [
+                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
+                ],
+                "requires": ["Legalism"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Tradition Complete",
+                "uniques": [
+                    "[+15]% growth [in all cities]",
+		  "May buy [Aqueduct] buildings for [100] [Faith] [in all cities]"
+                ]
+            }
+        ]
+    },
   {
         "name": "Piety",
         "era": "Ancient era",
@@ -69,6 +139,84 @@
             }
         ]
     },
+    {
+        "name": "Exploration",
+        "era": "Medieval era",
+        "priorities": {
+            "Neutral": 0,
+            "Cultural": 0,
+            "Diplomatic": 0,
+            "Domination": 10,
+            "Scientific": 10
+        },
+        "uniques": [
+            "[+1] Movement <for [{Military} {Water}] units>",
+            "[+1] Sight <for [{Military} {Water}] units>"
+        ],
+        "policies": [
+            {
+                "name": "Maritime Infrastructure",
+                "uniques": [
+                    "[+3 Production] [in all coastal cities]",
+		   "[+50]% Production when constructing [Lighthouse] buildings [in all cities]",
+                    "[+50]% Production when constructing [Harbor] buildings [in all cities]",
+		"[+50]% Production when constructing [Seaport] buildings [in all cities]",
+
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Naval Tradition",
+                "uniques": [
+                    "[+1 Happines, +1 Culture] from every [Lighthouse]",
+                    "[+1 Happines, +1 Culture] from every [Harbor]",
+                    "[+1 Happines, +1 Culture] from every [Seaport]"
+                ],
+                "row": 1,
+                "column": 3
+            },
+            {
+                "name": "Merchant Navy",
+                "uniques": [
+                    "[+2 Gold] from every [Lighthouse]",
+                    "[+2 Gold] from every [Harbor]",
+                    "[+2 Gold] from every [Seaport]",
+                    "[+4 Production, +4 Culture] from every [National Treasury]",
+                ],
+                "requires": ["Naval Tradition","Maritime Infrastructure"],
+                "row": 2,
+                "column": 2
+            },
+            {
+                "name": "Navigation School",
+                "uniques": ["[+2 Science] [in all coastal cities]",
+                    "[Great General] units gain the [Great Admiral] promotion",
+                    "Free [Great General] appears"
+                ],
+                "requires": ["Naval Tradition"],
+                "row": 2,
+                "column": 4
+            },
+            {
+                "name": "Colonialism",
+                "uniques": [
+                    "[+2] population [in all cities]",
+                    "[+2 Happiness] [in all cities]",
+		    "[+5 Food] [in all cities]"
+                ],
+                "requires": ["Merchant Navy"],
+                "row": 3,
+                "column": 3
+            },
+            {
+                "name": "Exploration Complete",
+                "uniques": [
+                    "[+3 Science, +3 Culture] [in all coastal cities]"
+                ]
+            }
+                ]
+	},
 {	
         "name": "Autocracy",
         "era": "Industrial era",
