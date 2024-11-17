@@ -169,9 +169,9 @@
             {
                 "name": "Naval Tradition",
                 "uniques": [
-                    "[+1 Happines, +1 Culture] from every [Lighthouse]",
-                    "[+1 Happines, +1 Culture] from every [Harbor]",
-                    "[+1 Happines, +1 Culture] from every [Seaport]"
+                    "[+1 Happiness, +1 Culture] from every [Lighthouse]",
+                    "[+1 Happiness, +1 Culture] from every [Harbor]",
+                    "[+1 Happiness, +1 Culture] from every [Seaport]"
                 ],
                 "row": 1,
                 "column": 3
@@ -237,8 +237,8 @@
             {
                 "name": "Military-Industrial Complex",
                 "uniques": [
-                    "[+10 Science] from every [Stable]", 
-                    "[+10 Science] from every [Forge]", 
+                    "[+5 Science] from every [Stable]", 
+                    "[+5 Science] from every [Forge]", 
                     "[+5 Science] from every [Seaport]"
                 ],
                 "row": 1,
