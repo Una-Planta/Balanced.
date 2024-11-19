@@ -25,7 +25,8 @@
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
 		"upgradesTo": "Cavalry",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Founds a new city", "[+2] Sight"],
+		"uniques": ["Can move after attacking","No defensive terrain bonus",
+			"Founds a new city", "[+2] Sight", "units to enter ocean tiles"],
 		"promotions": ["[Conquistador] ability"],
 		"attackSound": "horse"
 		//Conquistador should have no penalty attacking cities
