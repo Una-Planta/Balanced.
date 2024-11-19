@@ -9,7 +9,7 @@
             "Domination": 5,
             "Scientific": 5
         },
-        "uniques": [
+        "uniques": [ "Free Social Policy",
             "[+3 Culture] [in capital]",
             "[-25]% Culture cost of natural border growth [in all cities]"
         ],
@@ -72,7 +72,7 @@
     {
         "name": "Honor",
         "era": "Ancient era",
-        "uniques": [
+        "uniques": [ "Free Social Policy",
             "[+33]% Strength <vs [Barbarian] units>", "Free Social Policy",
             "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
             "Only available <before adopting [Liberty]>",
@@ -167,7 +167,7 @@
             "Domination": 10,
             "Scientific": 0
         },
-        "uniques": [
+        "uniques": [ "Free Social Policy",
           "May buy [Shrine] buildings for [50] [Faith] [in all cities]",
     "May buy [Temple] buildings for [150] [Faith] [in all cities]",
 "May buy [Grand Temple] buildings for [1500] [Faith] [in all cities]"],
@@ -237,7 +237,7 @@
             "Domination": 10,
             "Scientific": 10
         },
-        "uniques": [
+        "uniques": [ "Free Social Policy",
             "[+1] Movement <for [{Military} {Water}] units>",
             "[+1] Sight <for [{Military} {Water}] units>"
         ],
@@ -262,6 +262,20 @@
                     "[+1 Happiness, +1 Culture] from every [Seaport]"
                 ],
                 "row": 1,
+                "column": 3
+            },
+	 	{
+                "name": "Resettlements",
+                "uniques": [
+                    "[+4] population [in this city] <upon founding a city>",
+                    "Gain a free [Workshop] [in this city] <upon founding a city>",
+                    "Gain a free [Monument] [in this city] <upon founding a city>",
+                    "Gain a free [Granary] [in this city] <upon founding a city>",
+                    "Gain a free [Library] [in this city] <upon founding a city>",
+                    "Gain a free [Aqueduct] [in this city] <upon founding a city>"
+                ],
+		"requires": ["Colonialism"],
+                "row": 3,
                 "column": 3
             },
             {
@@ -289,13 +303,14 @@
             {
                 "name": "Colonialism",
                 "uniques": [
-                    "[+2] population [in all cities]",
-                    "[+2 Happiness] [in all cities]",
-		    "[+5 Food] [in all cities]"
+                    "[+1] population [in all cities]",
+                    "[+1 Happiness] [in all cities]",
+		"Free [Worker] appears <upon founding a city>",
+		"Free [Warrior] appears <upon founding a city>",
+		    "[+2 Food] [in all cities]"
                 ],
-                "requires": ["Merchant Navy"],
-                "row": 3,
-                "column": 3
+                "row": 1,
+                "column": 5
             },
             {
                 "name": "Exploration Complete",
@@ -312,10 +327,10 @@
             "Neutral": 20,
             "Cultural": 0,
             "Diplomatic": 0,
-            "Domination": 20,
+            "Domination": 40,
             "Scientific": 0
         },
-        "uniques": [
+        "uniques": [ "Free Social Policy",
             "[-50]% maintenance costs <for [All] units>",
 	    "[-33]% Gold cost of upgrading <for [Military] units>",
             "Only available <before adopting [Order]>",
@@ -327,7 +342,7 @@
                 "uniques": [
                     "[+5 Science] from every [Stable]", 
                     "[+5 Science] from every [Forge]", 
-                    "[+5 Science] from every [Seaport]"
+                    "[+3 Science] from every [Seaport]"
                 ],
                 "row": 1,
                 "column": 1
@@ -351,7 +366,12 @@
 
                 "name": "Mobilization",
                 "uniques": [
-                    "[Gold] cost of purchasing [All] units [-33]%"
+                    "[Gold] cost of purchasing [All] units [-33]%",
+		    "Earn [100]% of killed [Military] unit's [Strength] as [Culture]",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Science]",
+                    "Earn [100]% of killed [Military] unit's [Strength] as [Gold]",
+                    "[+50]% XP gained from combat <for [non-[Air]] units>"
+              
                 ],
                 "requires": ["Populism", "Military-Industrial Complex"],
                 "row": 2,
@@ -361,7 +381,8 @@
                 "name": "Fascism",
                 "uniques": [
                     "Quantity of strategic resources produced by the empire +[100]%",
-                    "[+3] Movement <for [Great General] units>"
+                    "[+3] Movement <for [Great General] units>",
+		  "[+5 Science, +5 Food] [in capital]"
                 ],
                 "requires": ["Populism", "Militarism"],
                 "row": 2,
