@@ -54,7 +54,7 @@
             {
                 "name": "Monarchy",
                 "uniques": [
-                    "[+1 Gold, +1 Happiness] per [2] population [in capital]"
+                    "[+1 Gold, +1 Happiness] per [2] population [in capital]", "Free [Settler] appears"
                 ],
                 "requires": ["Legalism"],
                 "row": 2,
@@ -96,6 +96,7 @@
                     "[-20]% Gold cost of upgrading <for [Military] units>",
                     "[+50]% Production when constructing [Courthouse] buildings [in all cities]",
                     "[+3 Production, +3 Gold, +3 Food] from every [Courthouse]",
+		    "Free [Settler] appears",
                     "[+1 Food, +2 Science, +2 Culture] from every [Citadel]"
                 ],
                 "row": 1,
@@ -117,8 +118,7 @@
                     "Units in cities cost no Maintenance",
                     "[+1 Happiness, +2 Culture] [in all cities with a garrison]",
                     "[+2 Happiness] from every [Courthouse]",
-			"Free [Settler] appears"
-                ],
+		                ],
                 "requires": ["Warrior Code"],
                 "row": 3,
                 "column": 1
@@ -303,8 +303,8 @@
             {
                 "name": "Colonialism",
                 "uniques": [
-                    "[+1] population [in all cities]",
-                    "[+1 Happiness] [in all cities]",
+                    "[+2] population [in this cities] <upon founding a city>",
+                    "[+3 Happiness] [in this cities] <upon founding a city>",
 		"Free [Worker] appears <upon founding a city>",
 		"Free [Warrior] appears <upon founding a city>",
 		    "[+2 Food] [in all cities]"
