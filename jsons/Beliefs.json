@@ -1,8 +1,13 @@
-[
-    {
-        "name": "Mine Of Nature",
+[    {
+        "name": "One with Nature",
         "type": "Pantheon",
-        "uniques": ["[+2 Culture, +3 Faith] from every [Natural Wonder]"]
+        "uniques": ["[+5 Faith, +3 Culture] from every [Natural Wonder]"]
+    },
+        {
+        "name": "Fertility Rites",
+        "type": "Pantheon",
+        "uniques": ["[+10]% growth [in this city]", "[+15]% growth [in capital]"]
+        // Preferably I would not have a cityFilter here, but doing so requires no additional implementation
     },
     {
         "name": "Ciencia Eclesiatica",
