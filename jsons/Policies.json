@@ -105,7 +105,7 @@
 		{
                 "name": "Discipline",
                 "uniques": [
-                    "[+100]% Production when constructing [Heroic Epic] wonders [in all cities]",
+                    "[+200]% Production when constructing [Heroic Epic] wonders [in all cities]",
                     "[+4 Production, +4 Gold, +4 Culture, +4 Happiness] from every [Heroic Epic]",
                     "[50]% XP gained from combat <for [non-[Air]] units>"
                 ],
@@ -167,16 +167,16 @@
             "Domination": 10,
             "Scientific": 0
         },
-        "uniques": [ "Free Social Policy",
-          "May buy [Shrine] buildings for [50] [Faith] [in all cities]",
-    "May buy [Temple] buildings for [150] [Faith] [in all cities]",
-"May buy [Grand Temple] buildings for [1500] [Faith] [in all cities]"],
+        "uniques": [ "Free Social Policy", 
+      "May buy [Shrine] buildings for [50] [Faith] [in all cities]",
+      "May buy [Temple] buildings for [150] [Faith] [in all cities]",
+      "May buy [Grand Temple] buildings for [1500] [Faith] [in all cities]"],
         "policies": [
             {
                 "name": "Organized Religion",
                 "uniques": [
-                    "[+2 Faith] from every [Shrine]",
-                    "[+4 Faith] from every [Temple]",
+                    "[+2 Faith, +1 Culture] from every [Shrine]",
+                    "[+4 Faith, +1 Culture] from every [Temple]",
                 ],
                 "row": 1,
                 "column": 2
@@ -201,17 +201,18 @@
             },
             {
                 "name": "Free Religion",
-                "uniques": [
-                    "Gain a free [Pantheon] belief", "(if you founded a religion)"
-                ],
+                "uniques": ["May choose [1] additional [Pantheon] beliefs when [founding] a religion",
+                    "Gain a free [Pantheon] belief <after founding a religion>"
+                      ],
                 "requires": ["Organized Religion"],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Reformation",
-                "uniques": [
-                    "Gain a free [Enhancer] belief", "(if you founded a religion)",
+                "uniques": [ "[+25]% [Science] from every [Grand Temple]",
+                    "May choose [1] additional [Enhancer] beliefs when [founding] a religion",
+                    "Gain a free [Enhancer] belief <after founding a religion>",
 		    "[-10]% Culture cost of adopting new Policies"	
                 ],
                 "requires": ["Free Religion"],
@@ -264,10 +265,24 @@
                 "row": 1,
                 "column": 3
             },
+		{
+                "name": "Colonialism",
+                "uniques": [
+		    "[+1 Gold, +3 Food] from ever [Plantation]",
+		    "[+2 Food] from ever [Farm]",
+                    "Gain a free [Walls] [in this city] <upon founding a city>",
+                    "[+3 Happiness] [in this city] <upon founding a city>",
+		    "Free [Worker] appears <upon founding a city>",
+		    "Free [Warrior] appears <upon founding a city>",
+		    "[+2 Food] [in all cities]"
+                ],
+                "row": 1,
+                "column": 5
+            },
 	 	{
                 "name": "Resettlements",
                 "uniques": [
-                    "[+4] population [in this city] <upon founding a city>",
+                    "[+5] population [in this city] <upon founding a city>",
                     "Gain a free [Workshop] [in this city] <upon founding a city>",
                     "Gain a free [Monument] [in this city] <upon founding a city>",
                     "Gain a free [Granary] [in this city] <upon founding a city>",
@@ -275,8 +290,8 @@
                     "Gain a free [Aqueduct] [in this city] <upon founding a city>"
                 ],
 		"requires": ["Colonialism"],
-                "row": 3,
-                "column": 3
+                "row": 2,
+                "column": 5
             },
             {
                 "name": "Merchant Navy",
@@ -299,18 +314,6 @@
                 "requires": ["Naval Tradition"],
                 "row": 2,
                 "column": 4
-            },
-            {
-                "name": "Colonialism",
-                "uniques": [
-                    "[+2] population [in this cities] <upon founding a city>",
-                    "[+3 Happiness] [in this cities] <upon founding a city>",
-		"Free [Worker] appears <upon founding a city>",
-		"Free [Warrior] appears <upon founding a city>",
-		    "[+2 Food] [in all cities]"
-                ],
-                "row": 1,
-                "column": 5
             },
             {
                 "name": "Exploration Complete",
