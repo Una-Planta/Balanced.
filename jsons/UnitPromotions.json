@@ -5,6 +5,6 @@
  },
 {
 	"name": "[Tercio] ability",
-	"uniques": ["[+25]% XP gained from combat"],
+	"uniques": ["[+25]% XP gained from combat", "[+25]% Strength <when adjacent to a [Tercio] unit>"],
 },
 ]
