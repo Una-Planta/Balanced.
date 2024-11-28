@@ -428,7 +428,7 @@
                 "name": "Resettlement",
                 "uniques": [
                     "[+1] population [in annexed cities]", 
-                    "[+1 Happiness] [in annexed cities]", 
+                    "[+3 Happiness] [in annexed cities]", 
                     "[+5 Food] [in annexed cities]"
                 ],
                 "requires": ["Police State","Fascism"],
