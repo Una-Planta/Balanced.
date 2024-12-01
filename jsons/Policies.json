@@ -396,7 +396,7 @@
                 "uniques": [ 
 		    "Gain a free [Courthouse] [in annexed cities]",
                     "[+3 Happiness] from every [Courthouse]",
-                    "[-5 gold] from every [Courthouse]"
+                    "[-5 Gold] from every [Courthouse]"
                     
                 ],
                 "requires": ["Militarism"],
