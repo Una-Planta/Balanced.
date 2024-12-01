@@ -393,9 +393,10 @@
             },
             {
                 "name": "Police State",
-                "uniques": [
+                "uniques": [ 
+		    "Gain a free [Courthouse] [in annexed cities]",
                     "[+3 Happiness] from every [Courthouse]",
-                    "[Gold] cost of purchasing [Courthouse] buildings [-75]%"
+                    "[-5 gold] from every [Courthouse]"
                     
                 ],
                 "requires": ["Militarism"],
@@ -428,7 +429,7 @@
                 "name": "Resettlement",
                 "uniques": [
                     "[+1] population [in annexed cities]", 
-                    "[+3 Happiness] [in annexed cities]", 
+                    "[+1 Happiness] [in annexed cities]", 
                     "[+5 Food] [in annexed cities]"
                 ],
                 "requires": ["Police State","Fascism"],
